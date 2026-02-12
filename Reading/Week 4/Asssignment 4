@@ -1,0 +1,19 @@
+## Reading Material Four (Mandatory)
+
+1. We now have results from our models and a basic understanding of their application scenarios. However, we also observed that not every model performed well. This leads us to the next step: **model tuning**. In the first part of next week’s reading, we will focus on learning how to tune models to improve their performance. After that, we will explore the concept of **training** in machine learning. Specifically, we will dive into how a computer learns the underlying features of the data during the training process. （See Reading Material 4）
+
+2. In practice we should also include the technical indicators, find the relevent information and learn what are the meaning and math behind the indicators below:
+| Indicator Type  | What It Encodes     |
+| --------------- | ------------------- |
+| Momentum        | Trend persistence   |
+| Moving averages | Trend smoothing     |
+| RSI             | Overbought/oversold |
+| Volatility      | Risk regime         |
+| Volume          | Information flow    |
+| Drawdown        | Stress regime       |
+
+## Assignment: 
+(Optional, if you finish this part, please send to me by Teams or email)
+* Change a Loss Function for KNN and Logistic Regression to re-generate the plots. (Check Documentation, you will only need to change a hyperparameter value)
+* Right now, we are doing Future <b>Price </b> prediction, change the code to predict the return and re-generate the plots.
+* Use YFinance to download the stock price (5-year daily SP500 close price).
